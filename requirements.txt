@@ -1,0 +1,13 @@
+python-docx
+beautifulsoup4 
+requests
+
+'''
+word nó lưu vào file Output trong cây thư mục:
+|--log
+      |_debug.log
+|--Output
+|--links.txt
+|--main.py
+|__content_crawler.py
+'''

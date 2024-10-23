@@ -32,8 +32,8 @@ format_debug = lambda url, traceback: f'''Could not crawl
 error_path = osp.join('.', 'log', 'error_links.txt')
 with open(osp.join('.', 'links.txt')) as file:
     text = [line.rstrip('\n') for line in file.readlines()]
-start = 0
-end = None
+start = 200
+end = 375
 for i, url in enumerate(text[start:end], start=start):
     try:
         crawl_content(url)
